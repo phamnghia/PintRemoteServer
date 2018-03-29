@@ -1,0 +1,15 @@
+{
+  "name": "pintsremoteserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w * --exec \"node app.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
+  }
+}
